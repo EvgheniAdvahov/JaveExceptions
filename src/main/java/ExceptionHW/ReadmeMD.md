@@ -1,11 +1,9 @@
 # ReadmeMD
 
-/**
 
-*Задание 2
+### Задание 2
 
-*Не был создан массив
-*/
+- Не был создан массив
 
 try {
 
@@ -25,20 +23,16 @@ System.out.println("Catching exception: " + e);
 
 },
 
-/**
+### Задание 3
 
-* Задание 3
+1. throws Exception в main - не вижу смысла на нём,
 
-* 1) throws Exception в main - не вижу смысла на нём,
+так как ошибки, которые могут возникнуть - unchecked.
 
-* так как ошибки, которые могут возникнуть - unchecked.
+1. Обращаемся к элементу который находится вне массива abc[3] = 9;
+2. Throwable ex ловит все ошибки и исключения - лучше прописать в последнем catch
+3. throws FileNotFoundException - нам не нужен в этом методе.
 
-* 2) Обращаемся к элементу который находится вне массива abc[3] = 9;
-
-* 3) Throwable ex ловит все ошибки и исключения - лучше прописать в последнем catch
-
-* 4) throws FileNotFoundException - нам не нужен в этом методе.
-*/
 public static void main(String[] args) {
 
 try {
@@ -66,9 +60,15 @@ System.out.println("Массив выходит за пределы своего
 }catch (Throwable ex) {
 
 System.out.println("Что-то пошло не так...");
+
 }
+
 }
+
 public static void printSum(Integer a, Integer b) {
+
 System.out.println(a + b);
+
 }
+
 }
