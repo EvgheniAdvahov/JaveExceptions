@@ -1,7 +1,6 @@
 package ExceptionHW3;
 
 import Lesson3.MyException;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
