@@ -8,8 +8,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws MyException {
-        WriteReadFile writeReadFile = new WriteReadFile();
-        writeReadFile.readWrite();
         List<String> myReadyList = new ArrayList<>(Arrays.asList("Имя ",
                 "Фамилия ",
                 "Отчество ",
